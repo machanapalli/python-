@@ -1,0 +1,16 @@
+print("welcome to the theme park!")
+height = int (input("what is your height in cm"))
+age = int(input("what is your age?"))
+if height >120:
+ print ("you can enter the ride")
+ if age<12:
+  bill = 7
+  print ("Your ride fair is 7$ ")
+ elif age <18:
+  bill = 8
+  print("Your ride fair is $8")
+ else:
+  bill+=3
+  print (f"Your final bill is {bill}")
+else: 
+ print("You cannot enter the ride")
