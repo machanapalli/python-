@@ -14,3 +14,4 @@ if height >120:
   print (f"Your final bill is {bill}")
 else: 
  print("You cannot enter the ride")
+ print("something")
