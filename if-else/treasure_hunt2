@@ -1,0 +1,46 @@
+print(''' 
+
+                                              ,--,  ,.-.
+                ,                   \,       '-,-`,'-.' | ._
+               /|           \    ,   |\         }  )/  / `-,',
+               [ '          |\  /|   | |        /  \|  |/`  ,`
+               | |       ,.`  `,` `, | |  _,...(   (      _',
+               \  \  __ ,-` `  ,  , `/ |,'      Y     (   \_L\
+                \  \_\,``,   ` , ,  /  |         )         _,/
+                 \  '  `  ,_ _`_,-,<._.<        /         /
+                  ', `>.,`  `  `   ,., |_      |         /
+                    \/`  `,   `   ,`  | /__,.-`    _,   `\
+                -,-..\  _  \  `  /  ,  / `._) _,-\`       \
+                 \_,,.) /\    ` /  / ) (-,, ``    ,        |
+                ,` )  | \_\       '-`  |  `(               \
+               /  /```(   , --, ,' \   |`<`    ,            |
+              /  /_,--`\   <\  V /> ,` )<_/)  | \      _____)
+        ,-, ,`   `   (_,\ \    |   /) / __/  /   `----`
+       (-, \           ) \ ('_.-._)/ /,`    /
+       | /  `          `/ \\ V   V, /`     /
+    ,--\(        ,     <_/`\\     ||      /
+   (   ,``-     \/|         \-A.A-`|     /
+  ,>,_ )_,..(    )\          -,,_-`  _--`
+ (_ \|`   _,/_  /  \_            ,--`
+  \( `   <.,../`     `-.._   _,-`
+   `                      ``` 
+''')
+print("WELCOME TO THE DRAGON'S LAIR! \n YOU THINK YOU CAN GET TO MY TREASURE!! \n LET US SEE IF YOU CAN MAKE THE RIGHT DECISIONS")
+choice1 = input("Now that you've entered my cave which of the two ways would you go? Right or left ").lower()
+if choice1 == "right":
+    choice2=input("Well it was beginner's luck lets see if you make the right choice now? \n You've came across a giant spider. do you kill it or leave it alone? \n kill or leave? ").lower()
+    if choice2 == "kill":
+        choice3= input("Alas, the spider killer is here. choose one of the three doors in which the treasure is hidden. red, green and black ").lower()
+        if choice3 == "red":
+            print("GAME OVER.You were killed by the spiders family.")
+        elif choice3 == "green":
+            print("CONGRATULATIONS!!! YOU'VE REACHED THE TREASURE.")
+        elif choice3 == "black":
+            print("GAME OVER.YOU WERE KILLED BY THE DRAGON.") 
+        else:
+            print("Game over. you have wandered into the wrong rooms")
+    else:
+        print("Game over. the spider killed you.")
+else:
+    print("Game over. Tough luck, you chose the wrong way.")   
+                                       
